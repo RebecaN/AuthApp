@@ -2,5 +2,10 @@
 
 
 body {
-  padding-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 0%;
+  background-image: url("../assets/images/nasa.jpg");
+  height: fit-content;
+  background-position: center;
+  background-size: cover;
 }

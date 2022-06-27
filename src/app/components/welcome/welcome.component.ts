@@ -1,11 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { OktaAuthService } from '@okta/okta-angular';
 
+
 @Component({
-  selector: 'app-welcome',
+  selector: 'app-route',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css']
 })
+
 export class WelcomeComponent implements OnInit {
 
   isAuthenticated: boolean = false;
@@ -22,5 +24,4 @@ export class WelcomeComponent implements OnInit {
       this.name = userClaims.name || "";
     }
   }
-
 }
